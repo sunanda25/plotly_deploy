@@ -137,7 +137,17 @@ function buildCharts(sample) {
       type: "indicator",
       mode: "gauge+number",
       title: {text: "Belly Button Washing Frequency<br>Scrubs per Week"},
-      
+      gauge: {
+        axis: {range: [null, 10]},
+        bar: {color: "blue"},
+        steps: [
+          {range: [0,2], color: "violet"},
+          {range: [2,4], color: "indigo"},
+          {range: [4,6], color: "green"},
+          {range: [6,8], color: "yellow"},
+          {range: [8,10], color: "orange"}
+        ]
+      }
     }];
     
     // 5. Create the layout for the gauge chart.
