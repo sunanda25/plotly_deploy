@@ -123,15 +123,22 @@ function buildCharts(sample) {
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number and holds the first sample in metadata array.
     var metaData = data.metadata.filter(object => object.id == sample)[0]
+
     // 2. Display first sample in the metadata array.
     console.log(metaData);
+
     // 3. Create a variable that holds the washing frequency.
     var washFrequency = metaData.wfreq;
-    console.log(washFrequency)
+    console.log(washFrequency);
+
     // 4. Create the trace for the gauge chart.
-    var gaugeData = [
-     
-    ];
+    var gaugeData = [{
+      value: washFrequency,
+      type: "indicator",
+      mode: "gauge+number",
+      title: {text: "Belly Button Washing Frequency<br>Scrubs per Week"},
+      
+    }];
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
