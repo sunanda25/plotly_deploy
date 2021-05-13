@@ -141,11 +141,11 @@ function buildCharts(sample) {
         axis: {range: [null, 10]},
         bar: {color: "blue"},
         steps: [
-          {range: [0,2], color: "violet"},
-          {range: [2,4], color: "indigo"},
+          {range: [0,2], color: "skyblue"},
+          {range: [2,4], color: "yellowgreen"},
           {range: [4,6], color: "green"},
-          {range: [6,8], color: "yellow"},
-          {range: [8,10], color: "orange"}
+          {range: [6,8], color: "orange"},
+          {range: [8,10], color: "indianred"}
         ]
       }
     }];
