@@ -78,6 +78,7 @@ function buildCharts(sample) {
     //  so the otu_ids with the most bacteria are last. 
     var yticks = otu_id.slice(0, 10);
     var otu_ids = yticks.reverse();
+    console.log(otu_ids)
     // 8. Create the trace for the bar chart. 
     var barData = [{
       x: sample_values,
@@ -104,6 +105,7 @@ function buildCharts(sample) {
       marker: {
         color: otu_ids,
         size: sample_values,
+        colorscale: 'blues'
       }
     }];
 
