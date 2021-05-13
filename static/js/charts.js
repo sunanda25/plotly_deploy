@@ -64,7 +64,7 @@ function buildCharts(sample) {
       filter(sampleObj => sampleObj.id == sample)[0]
 
     //  5. Display the first sample in the array.
-      console.log(sampleArray)
+      console.log(sampleArray);
 
     // 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
     var otu_id = sampleArray.otu_ids.map(ids => {
@@ -123,10 +123,11 @@ function buildCharts(sample) {
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number and holds the first sample in metadata array.
     var metaData = data.metadata.filter(object => object.id == sample)[0]
-    // 2. Create a variable that holds the first sample in the metadata array.
-    console.log(metaData)
+    // 2. Display first sample in the metadata array.
+    console.log(metaData);
     // 3. Create a variable that holds the washing frequency.
-
+    var washFrequency = metaData.wfreq;
+    console.log(washFrequency)
     // 4. Create the trace for the gauge chart.
     var gaugeData = [
      
