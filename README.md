@@ -24,3 +24,12 @@ A bubble bar chart is designed using JavaScript, Plotly, D3.js. Upon selecting a
 - Marker Colors: OTU ids
 
 ![image](https://user-images.githubusercontent.com/76491891/118402502-22035680-b638-11eb-98ea-322d26fccd5c.png)
+
+3. Gauge Chart
+A gauge chart is designed using JavaScript, Plotly, D3.js. Upon selecting an individual Id from the dropdown menu on the webpage, a gauge chart displays the weekly washing frequency value as a measure from 0- 10 on the progress bar for that id. Below are the specifications for the gauge chart:
+
+- Values: Washing frequency 
+- Range: 0 – 10
+
+![image](https://user-images.githubusercontent.com/76491891/118402588-89b9a180-b638-11eb-829b-88e1c3ce23c2.png)
+
