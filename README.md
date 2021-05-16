@@ -1,4 +1,4 @@
-# plotly_deploy
+# Plotly_Deploy
 ## Overview
 A food start-up, Improbable Beef has partnered with a microbiology laboratory to search for an elusive bacterial species that provides perfect taste like beef. Lab’s biology researcher, Rosa's role is to discover and document the bacterial species that can synthesize proteins that taste like beef. Rosa hypothesizes that the ideal bacterial species to make synthetic beef may found in the human bellybutton. To test her hypothesis, Rosa has gathered navel samples from candidates across the country to identify bacterial species that colonize the bellybutton. To document the results, Rosa wants to build a dashboard on a website where both research participants and fellow researchers can access data. 
 
