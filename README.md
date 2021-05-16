@@ -7,8 +7,20 @@ The data collected from research participants are visually presented in a dashbo
 
 1. Horizontal Bar Chart
 A horizontal bar chart is designed using JavaScript, Plotly, D3.js Upon selecting an individual Id from the dropdown menu on the webpage, a horizontal bar chart is displayed with the top 10 bacterial species (OTU’s) for that Id. Below are the specifications for the horizontal bar chart:
+
 - X-axis: Sample values 
 - Y-axis: OTU ids 
 - Hover Text: OTU labels 
 
 ![image](https://user-images.githubusercontent.com/76491891/118402364-a43f4b00-b637-11eb-82ec-708f78a6723e.png)
+
+2. Bubble Chart
+A bubble bar chart is designed using JavaScript, Plotly, D3.js. Upon selecting an individual Id from the dropdown menu on the webpage, a bubble chart is displayed with bacteria cultures for that Id. Below are the specifications for the bubble chart:
+
+- X-axis: OTU ids
+- Y-axis: Sample values 
+- Hover Text: OTU labels 
+- Marker Size: Sample values
+- Marker Colors: OTU ids
+
+![image](https://user-images.githubusercontent.com/76491891/118402502-22035680-b638-11eb-98ea-322d26fccd5c.png)
